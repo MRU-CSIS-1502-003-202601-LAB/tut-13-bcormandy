@@ -26,4 +26,12 @@ public class LootManager {
         System.out.println("-------------------------");
         System.out.println();
     }
+
+    public void save(String endFilePath) {
+    
+    }
+
+    public static LootManager load(String startFilePath) {
+        throw new UnsupportedOperationException("Unimplemented method 'load'");
+    }
 }
